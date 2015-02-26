@@ -1,0 +1,39 @@
+{
+  "name": "string-builder",
+  "version": "1.0.0",
+  "description": "Builds strings by concatenating arguments and appending to a base.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smallmultiples/gulp-modules.git"
+  },
+  "homepage": "http://smallmultiples.github.io/gulp-modules/string-builder",
+  "keywords": [
+    "gulp",
+    "string",
+    "builder",
+    "convenience",
+    "concatenate"
+  ],
+  "author": {
+    "name": "Small Multiples",
+    "email": "info@small.mu",
+    "website": "http://small.mu"
+  },
+  "contributors": {
+    "name": "James Hiscock",
+    "email": "npm@jameshiscock.com",
+    "website": "jameshiscock.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallmultiples/gulp-modules/issues"
+  },
+  "homepage": "https://github.com/smallmultiples/gulp-modules",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
