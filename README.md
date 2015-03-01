@@ -8,8 +8,10 @@ Each package comes with opinionated defaults, but lets you completely override t
 ### Packages ###
 
 * [string-builder][string builder]
+* [stylus-caster][stylus caster]
 
-[string builder]: http://smallmultiples.github.io/gulp-modules/stringbuilder
+[string builder]: http://smallmultiples.github.io/gulp-modules/string-builder
+[stylus caster]: http://smallmultiples.github.io/gulp-modules/stylus-caster
 
 ### License ###
 
