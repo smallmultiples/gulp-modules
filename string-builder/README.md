@@ -57,4 +57,4 @@ If an arg is an object, it will have its toString method called on it before con
 License
 -------
 
-MIT, see LICENSE.md
+MIT Licensed. See LICENSE.md for more information.
