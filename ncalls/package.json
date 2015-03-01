@@ -1,0 +1,37 @@
+{
+  "name": "ncalls",
+  "version": "1.0.0",
+  "description": "Runs a callback only on its nth call",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smallmultiples/gulp-modules.git"
+  },
+  "homepage": "http://smallmultiples.github.io/gulp-modules/ncalls",
+  "keywords": [
+    "callback",
+    "smallmultiples"
+  ],
+  "author": {
+    "name": "Small Multiples",
+    "email": "info@small.mu",
+    "website": "http://small.mu"
+  },
+  "contributors": [
+    {
+      "name": "James Hiscock",
+      "email": "npm@jameshiscock.com",
+      "website": "http://jameshiscock.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallmultiples/gulp-modules/issues"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}

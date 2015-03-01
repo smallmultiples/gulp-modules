@@ -9,9 +9,11 @@ Each package comes with opinionated defaults, but lets you completely override t
 
 * [string-builder][string builder]
 * [stylus-caster][stylus caster]
+* [ncalls][ncalls]
 
 [string builder]: http://smallmultiples.github.io/gulp-modules/string-builder
 [stylus caster]: http://smallmultiples.github.io/gulp-modules/stylus-caster
+[ncalls]: http://smallmultiples.github.io/gulp-modules/ncalls
 
 ### License ###
 
