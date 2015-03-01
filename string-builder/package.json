@@ -15,24 +15,25 @@
     "gulp",
     "string",
     "builder",
-    "convenience",
-    "concatenate"
+    "concatenate",
+    "smallmultiples"
   ],
   "author": {
     "name": "Small Multiples",
     "email": "info@small.mu",
     "website": "http://small.mu"
   },
-  "contributors": {
-    "name": "James Hiscock",
-    "email": "npm@jameshiscock.com",
-    "website": "jameshiscock.com"
-  },
+  "contributors": [
+    {
+      "name": "James Hiscock",
+      "email": "npm@jameshiscock.com",
+      "website": "jameshiscock.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smallmultiples/gulp-modules/issues"
   },
-  "homepage": "https://github.com/smallmultiples/gulp-modules",
   "devDependencies": {
     "tape": "^3.5.0"
   }

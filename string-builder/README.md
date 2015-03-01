@@ -54,7 +54,7 @@ If an arg is an array, it will be joined with the `joiner` provided by the facto
 
 If an arg is an object, it will have its toString method called on it before concatenation with the base and other arguments.
 
-Licence
+License
 -------
 
 MIT, see LICENSE.md
