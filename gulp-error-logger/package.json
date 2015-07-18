@@ -1,0 +1,46 @@
+{
+  "name": "gulp-error-logger",
+  "version": "1.0.0",
+  "description": "Logs to console with gulp-util and notifies the user if they've asked for notifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smallmultiples/gulp-modules.git"
+  },
+  "homepage": "http://smallmultiples.github.io/gulp-modules/error-logger",
+  "keywords": [
+    "gulp",
+    "log",
+    "error",
+    "logger",
+    "notifications",
+    "smallmultiples"
+  ],
+  "author": {
+    "name": "Small Multiples",
+    "email": "info@small.mu",
+    "website": "http://small.mu"
+  },
+  "contributors": [
+    {
+      "name": "James Hiscock",
+      "email": "npm@jameshiscock.com",
+      "website": "http://jameshiscock.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallmultiples/gulp-modules/issues"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "defaults": "^1.0.2",
+    "gulp-util": "^3.0.6",
+    "node-notifier": "^4.2.3"
+  }
+}
