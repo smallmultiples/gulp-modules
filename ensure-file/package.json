@@ -1,0 +1,37 @@
+{
+  "name": "ensure-file",
+  "version": "1.0.0",
+  "description": "Ensures a file exists, filling it with default values if it doesn't",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smallmultiples/gulp-modules.git"
+  },
+  "homepage": "http://smallmultiples.github.io/gulp-modules/ensure-file",
+  "keywords": [
+    "callback",
+    "smallmultiples"
+  ],
+  "author": {
+    "name": "Small Multiples",
+    "email": "info@small.mu",
+    "website": "http://small.mu"
+  },
+  "contributors": [
+    {
+      "name": "James Hiscock",
+      "email": "npm@jameshiscock.com",
+      "website": "http://jameshiscock.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallmultiples/gulp-modules/issues"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
