@@ -1,7 +1,7 @@
 Gulp Error Logger
 =================
 
-Takes an error object and tries to find the best thing to log from it. Optionally, depending on settings at creation, can pop up a system notification via [growl](http://npmjs.com/growl)
+Takes an error object and tries to find the best thing to log from it. Optionally, depending on settings at creation, can pop up a system notification.
 
 Usage
 -----

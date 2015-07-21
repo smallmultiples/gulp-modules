@@ -1,5 +1,5 @@
 {
-  "name": "string-builder",
+  "name": "@smallmultiples/string-builder",
   "version": "1.0.0",
   "description": "Builds strings by concatenating arguments and appending to a base.",
   "main": "index.js",

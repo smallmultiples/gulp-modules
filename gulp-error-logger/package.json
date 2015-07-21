@@ -1,5 +1,5 @@
 {
-  "name": "gulp-error-logger",
+  "name": "@smallmultiples/gulp-error-logger",
   "version": "1.0.0",
   "description": "Logs to console with gulp-util and notifies the user if they've asked for notifications.",
   "main": "index.js",

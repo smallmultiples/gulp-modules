@@ -1,5 +1,5 @@
 {
-  "name": "ensure-file",
+  "name": "@smallmultiples/ensure-file",
   "version": "1.0.0",
   "description": "Ensures a file exists, filling it with default values if it doesn't",
   "main": "index.js",

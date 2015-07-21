@@ -1,5 +1,5 @@
 {
-  "name": "stylus-caster",
+  "name": "@smallmultiples/stylus-caster",
   "version": "1.0.0",
   "description": "Casts values to stylus nodes, attempting to be intelligent about colours.",
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "ncalls",
+  "name": "@smallmultiples/ncalls",
   "version": "1.0.0",
   "description": "Runs a callback only on its nth call",
   "main": "index.js",
