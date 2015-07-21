@@ -6,7 +6,6 @@ var gulp = require('gulp')
 var revall = require('gulp-rev-all')
 var awsPublishRouter = require('gulp-awspublish-router')
 var parallelise = require('concurrent-transform')
-var run = require('../cb-stream')
 
 var HTML_FILES = /.*\.html$/g
 var DEFAULTS = {

@@ -1,17 +1,15 @@
 {
-  "name": "@smallmultiples/s3",
+  "name": "@smallmultiples/template",
   "version": "1.0.0",
-  "description": "Functions for uploading files/applications to s3",
+  "description": "Compile jade files.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:smallmultiples/gulp-modules.git"
   },
-  "homepage": "http://smallmultiples.github.io/gulp-modules/s3",
+  "homepage": "http://smallmultiples.github.io/gulp-modules/template",
   "keywords": [
-    "s3",
-    "aws",
-    "deploy",
+    "jade",
     "smallmultiples"
   ],
   "author": {
@@ -29,13 +27,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smallmultiples/gulp-modules/issues"
-  },
-  "dependencies": {
-    "concurrent-transform": "^1.0.0",
-    "gulp": "^3.9.0",
-    "gulp-awspublish": "^2.0.2",
-    "gulp-awspublish-router": "^0.1.1",
-    "gulp-rev-all": "^0.8.21",
-    "lodash.merge": "^3.3.2"
   }
 }

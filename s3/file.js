@@ -3,7 +3,6 @@ module.exports = uploadFile
 var gulp = require('gulp')
 var awsPublish = require('gulp-awspublish')
 var awsPublishRouter = require('gulp-awspublish-router')
-var run = require('../cb-stream')
 var ensureCache = require('./ensure-cache')
 
 /**
