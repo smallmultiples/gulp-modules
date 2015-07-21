@@ -1,18 +1,15 @@
 {
-  "name": "@smallmultiples/ncalls",
+  "name": "@smallmultiples/livereload",
   "version": "1.0.0",
-  "description": "Runs a callback only on its nth call",
+  "description": "Utility functions for running a livereload server",
   "main": "index.js",
-  "scripts": {
-    "test": "tape tests/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:smallmultiples/gulp-modules.git"
   },
-  "homepage": "http://smallmultiples.github.io/gulp-modules/ncalls",
+  "homepage": "http://smallmultiples.github.io/gulp-modules/livereload",
   "keywords": [
-    "callback",
+    "livereload",
     "smallmultiples"
   ],
   "author": {
@@ -30,9 +27,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smallmultiples/gulp-modules/issues"
-  },
-  "devDependencies": {
-    "tape": "^3.5.0"
   },
   "dependencies": {
     "gulp-util": "^3.0.6",
