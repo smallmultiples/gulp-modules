@@ -1,0 +1,33 @@
+{
+  "name": "@smallmultiples/s3",
+  "version": "1.0.0",
+  "description": "Functions for uploading files/applications to s3",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smallmultiples/gulp-modules.git"
+  },
+  "homepage": "http://smallmultiples.github.io/gulp-modules/s3",
+  "keywords": [
+    "s3",
+    "aws",
+    "deploy",
+    "smallmultiples"
+  ],
+  "author": {
+    "name": "Small Multiples",
+    "email": "info@small.mu",
+    "website": "http://small.mu"
+  },
+  "contributors": [
+    {
+      "name": "James Hiscock",
+      "email": "npm@jameshiscock.com",
+      "website": "http://jameshiscock.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallmultiples/gulp-modules/issues"
+  }
+}
