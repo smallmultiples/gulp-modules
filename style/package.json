@@ -22,6 +22,11 @@
       "name": "James Hiscock",
       "email": "npm@jameshiscock.com",
       "website": "http://jameshiscock.com"
+    },
+    {
+      "name": "François Robichet",
+      "email": "calvein@gmail.com",
+      "website": "http://francois.robichet.com"
     }
   ],
   "license": "MIT",
