@@ -10,10 +10,10 @@ var cors = require('cors')
 var http = require('http')
 
 var DEFAULTS = {
-    onSuccess: function (port) {
+    success: function (port) {
         return gutil.colors.blue('Server port: ') + port
     }
-  , onError: function () {}
+  , error: function () {}
 }
 
 function serveFactory (options) {
@@ -34,8 +34,8 @@ function serveFactory (options) {
 
         staticServer = http.createServer(app)
         return staticServer.listen(port, function (err) {
-            if (err) return options.onError(err)
-            gutil.log(options.onSuccess(port))
+            if (err) return options.error(err)
+            gutil.log(options.success(port))
             if (cb) cb()
         })
     }
