@@ -1,7 +1,6 @@
 module.exports = bundleFactory
 
 var gutil = require('gulp-util')
-var babelify = require('babelify')
 var merge = require('lodash.merge')
 var browserify = require('browserify')
 var watchify = require('watchify')
@@ -16,8 +15,8 @@ var DEFAULTS = {
     start: gutil.colors.green('Bundling JavaScript...')
   , time: 'Bundled JavaScript'
   , error: function () {}
-  , transforms: [ csonify, babelify ]
-  , extensions: [ '.cson', '.jsx' ]
+  , transforms: []
+  , extensions: []
   , excludes: []
   , onUpdate: function () {}
   , filename: 'app.js'
