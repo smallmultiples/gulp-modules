@@ -84,7 +84,7 @@ function bundleFactory (options) {
                 })
             })
 
-        if (!minify) stream = stream.pipe(streamify(uglify(options.uglify)))
+        if (minify) stream = stream.pipe(streamify(uglify(options.uglify)))
 
         return stream.pipe(gulp.dest(dest))
             .on('end', cb)
