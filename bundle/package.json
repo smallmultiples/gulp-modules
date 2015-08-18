@@ -1,6 +1,6 @@
 {
   "name": "@smallmultiples/bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bundle javascript with browserify, designed to be reused in various ways in gulp task",
   "main": "index.js",
   "scripts": {
