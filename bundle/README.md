@@ -1,7 +1,7 @@
 Bundle
 ======
 
-Factory for a bundle function that can be called in multiple places without setting it up often. Uses browserify and defaults to transforming using [csonify][csonify] and [babelify][babelify]. Can be configured to use watchify instead of browserify.
+Factory for a bundle function that can be called in multiple places without setting it up often. Uses browserify but with configuration will swap to using watchify instead.
 
 [csonify]: http://npmjs.com/csonify
 [babelify]: http://npmjs.com/babelify

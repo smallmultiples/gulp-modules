@@ -39,7 +39,7 @@ function makeHSLA (h, s, l, a) {
  */
 function cast (vars) {
     var ret = {}
-    for (k in vars) {
+    for (var k in vars) {
         var v = vars[k]
         if (typeof v === 'string') {
             // HEX
