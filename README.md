@@ -5,6 +5,8 @@ A collection of modules we use at Small Multiples in our gulpfiles. They handle 
 
 Each package comes with opinionated defaults, but lets you completely override them.
 
+This documentation is still a work in progress.
+
 ### Packages ###
 
 * [ensure-file][ensure file]
