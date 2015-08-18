@@ -77,7 +77,7 @@ function bundleFactory (options) {
             .pipe(source(options.filename))
             .pipe(duration(options.time))
             .on('end', function () {
-                if (options.buildNotifications) return
+                if (!options.buildNotifications) return
                 notifier.notify({
                     title: options.notificationTitle
                   , message: options.notificationText
