@@ -34,7 +34,11 @@ function styleFactory (options) {
         var stream = gulp.src(src)
             .pipe(plumber(options.error))
             .pipe(sourcemaps.init())
-            .pipe(stylus({ define: options.define, sourcemap: true }))
+            .pipe(stylus({
+                define: options.define
+              , sourcemap: true
+              , 'include css': true
+            }))
             .pipe(duration(options.time))
             .pipe(prefix(options.prefix, options.prefixOptions))
 
