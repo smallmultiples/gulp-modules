@@ -1,6 +1,6 @@
 {
   "name": "@smallmultiples/static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copies static files for an SPA",
   "main": "index.js",
   "repository": {
