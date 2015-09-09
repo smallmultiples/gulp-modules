@@ -27,7 +27,7 @@ function staticFactory (options) {
         return gulp.src(src, { base: base })
             .pipe(plumber(options.error))
             .pipe(gulp.dest(dest))
-            .pipe(duration(options.time))
             .on('end', cb)
+            .pipe(duration(options.time))
     }
 }
