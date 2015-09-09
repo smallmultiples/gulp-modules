@@ -23,6 +23,7 @@ var DEFAULTS = {
   , buildNotifications: false
   , notificationText: 'Build is ready'
   , notificationTitle: 'BUILD'
+  , plugins: []
   , uglify: {
         mangle: true
       , output: { quote_keys: true }
@@ -55,6 +56,10 @@ function bundleFactory (options) {
         bundler.add(entry)
         options.transforms.forEach(function (transform) {
             bundler.transform(transform)
+        })
+
+        options.plugins.forEach(function (plugin) {
+            bundler.plugin(plugin.plugin, plugin.opts)
         })
 
         options.excludes.forEach(function (exclude) {
