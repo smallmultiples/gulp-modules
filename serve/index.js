@@ -29,8 +29,8 @@ function serveFactory (options) {
         var app = connect()
             .use(pushState())
             .use(injectLr({ port: lrPort }))
-            .use(serveStatic(src))
             .use(cors())
+            .use(serveStatic(src))
 
         staticServer = http.createServer(app)
         return staticServer.listen(port, function (err) {
