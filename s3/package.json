@@ -1,6 +1,6 @@
 {
   "name": "@smallmultiples/s3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functions for uploading files/applications to s3",
   "main": "index.js",
   "repository": {

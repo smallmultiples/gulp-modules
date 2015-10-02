@@ -49,10 +49,20 @@ function deployFactory (options) {
         var base = params.base
         var versioning = params.versioning
 
-        var publisher = awsPublish.create(options.aws)
+        options.aws.Bucket = options.aws.bucket
+        var awsPublishOptions = {
+            params: {
+                Bucket: options.aws.bucket
+            }
+          , accessKeyId: options.aws.key
+          , secretAccessKey: options.aws.secret
+          , region: options.aws.region
+        }
+
+        var publisher = awsPublish.create(awsPublishOptions)
         var stream = gulp.src(src, { base: base })
 
-        if (versioning) stream = stream.pipe(revall({ ignore: [ HTML_FILES ] }))
+        // if (versioning) stream = stream.pipe(revall({ ignore: [ HTML_FILES ] }))
         return stream
             .pipe(awsPublishRouter({
                 cache: options.cache
