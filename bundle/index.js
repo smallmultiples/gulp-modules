@@ -19,6 +19,7 @@ var DEFAULTS = {
   , extensions: []
   , excludes: []
   , onUpdate: function () {}
+  , standalone: null
   , filename: 'app.js'
   , buildNotifications: false
   , notificationText: 'Build is ready'
@@ -41,6 +42,9 @@ function bundleFactory (options) {
         var opts = {
             extensions: options.extensions
           , debug: params.debug
+        }
+        if (options.standalone) {
+            opts.standalone = options.standalone
         }
         if (params.once) {
             bundler = browserify(opts)
