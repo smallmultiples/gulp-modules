@@ -14,8 +14,9 @@ var DEFAULTS = {
     start: gutil.colors.green('Compiling Stylus...')
   , time: 'Compiled Stylus'
   , error: function () {}
-  , prefix: [ 'last 2 versions', 'ie9', 'ie10' ]
-  , prefixOptions: { cascade: true }
+  , prefixOptions: {
+      browsers: [ 'last 2 versions', 'ie >= 9' ]
+    }
   , minifyOptions: {}
   , define: {}
 }
@@ -40,7 +41,7 @@ function styleFactory (options) {
               , 'include css': true
             }))
             .pipe(duration(options.time))
-            .pipe(prefix(options.prefix, options.prefixOptions))
+            .pipe(prefix(options.prefixOptions))
 
         if (minify) stream = stream.pipe(minifyCss(options.minifyOptions))
 
