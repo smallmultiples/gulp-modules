@@ -23,6 +23,7 @@ var DEFAULTS = {
 
 function styleFactory (options) {
     options = merge({}, DEFAULTS, options)
+    style.options = options
 
     return style
 
